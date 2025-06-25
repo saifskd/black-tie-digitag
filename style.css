@@ -165,7 +165,167 @@ header .logo{
 
 
 
+/* --------------ai--------------- */
 
+.team-section {
+    margin-bottom: 4rem;
+    padding: 20px;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+  }
+  
+  .team-name {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .team-role {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Careers Section */
+  .careers-section {
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    padding-top: 3rem;
+  }
+  
+  .careers-content {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .careers-text {
+    margin-bottom: 2rem;
+  }
+  
+  .careers-text h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .careers-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .job-card {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+  }
+  
+  .job-card:hover {
+    background: #efefef;
+    cursor: pointer;
+  }
+
+  /* -----------ai and-------------- */
+
+
+/* -------------footer--------------- */
+
+
+.npd-footer {
+    background: #1d1d1d;
+    color: #fff;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .npd-footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .npd-footer-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+  }
+  
+  .npd-footer-col h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  .npd-footer-col p, .npd-footer-col li, .npd-footer-col a {
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .npd-footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .npd-footer-col a:hover {
+    color: #ffffff;
+  }
+  
+  .npd-footer-form {
+    display: flex;
+    border-bottom: 1px solid #444;
+    margin-top: 10px;
+  }
+  
+  .npd-footer-form input {
+    flex: 1;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .npd-footer-form button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .npd-footer-social {
+    margin-top: 20px;
+  }
+  
+  .npd-footer-social a {
+    margin-right: 12px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .npd-footer-social a:hover {
+    color: #aaa;
+  }
+
+  /* ------------footer end-------------- */
 
 
 
