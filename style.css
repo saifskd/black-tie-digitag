@@ -24,6 +24,12 @@ header .logo{
     width: auto;
 }
 
+.logo_text {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+}
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -734,6 +740,10 @@ header .logo{
 
     header .logo{
         height: 20px;
+    }
+
+    .logo_text {
+        font-size: 12px;
     }
 
     /* .menu{
