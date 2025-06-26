@@ -9,6 +9,7 @@
 
 header{
     position: absolute;
+    z-index: 99999;
     top: 0;
     position: sticky;
     display: flex;
@@ -328,10 +329,354 @@ header .logo{
   /* ------------footer end-------------- */
 
 
+/* --------service page style-------- */
+.npd-pricing {
+    padding: 80px 20px;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .npd-pricing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .npd-pricing-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .npd-pricing-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .npd-pricing-header p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .npd-toggle-buttons {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .npd-toggle-buttons button {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .npd-toggle-buttons button.active {
+    background: #333;
+    color: #fff;
+  }
+  
+  .npd-pricing-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+  }
+  
+  .npd-pricing-card {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .npd-plan-top.dark {
+    background: #111;
+    color: #fff;
+    padding: 30px 20px;
+    position: relative;
+    text-align: left;
+  }
+  
+  .npd-plan-top h3 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  
+  .npd-plan-top h2 {
+    font-size: 32px;
+    margin-top: 15px;
+  }
+  
+  .npd-plan-top h2 span {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .npd-plan-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #fff;
+    color: #111;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  
+  .npd-plan-features {
+    list-style: none;
+    padding: 25px 20px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .npd-plan-features li {
+    margin-bottom: 10px;
+  }
+  
+  .npd-plan-btn {
+    display: block;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    text-decoration: none;
+    border-top: 1px solid #ddd;
+    transition: background 0.3s;
+  }
+  
+  .npd-plan-btn:hover {
+    background: #000;
+  }
 
+  /* Core Values Section */
+.npd-core-values {
+    background: #111;
+    padding: 60px 20px;
+    color: #fff;
+  }
+  
+  .npd-core-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .npd-core-box i {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .npd-core-box h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  
+  .npd-core-box p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  
+  /* Feature Comparison Table */
+  .npd-pricing-table {
+    padding: 60px 20px;
+    background: #fff;
+  }
+  
+  .npd-table-container {
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto;
+  }
+  
+  .npd-pricing-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .npd-pricing-table thead {
+    background: #111;
+    color: #fff;
+  }
+  
+  .npd-pricing-table th,
+  .npd-pricing-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .npd-pricing-table tbody td {
+    color: #333;
+  }
+  
+  @media (max-width: 600px) {
+    .npd-core-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .npd-core-box {
+      font-size: 14px;
+    }
+  
+    .npd-core-box i {
+      font-size: 24px;
+    }
+  }
+  
 
+/* --------service page style-------- */
 
+/* ---------contact page style-------------- */
 
+/* Header Section */
+.npd-contact-header {
+    background: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .npd-contact-header-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .npd-contact-header-content p {
+    font-size: 16px;
+    color: #666;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Contact Form Section */
+  .npd-contact-form-section {
+    padding: 60px 20px;
+    background: #fff;
+  }
+  
+  .npd-contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1100px;
+    margin: auto;
+    gap: 40px;
+  }
+  
+  .npd-contact-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .npd-contact-info ul li {
+    margin-bottom: 12px;
+  }
+  
+  .npd-contact-info i {
+    margin-right: 8px;
+    color: #111;
+  }
+  
+  .npd-contact-form {
+    background: #111;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .npd-contact-form input,
+  .npd-contact-form textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .npd-contact-form textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  .npd-contact-form button {
+    background: #fff;
+    color: #111;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .npd-contact-form button:hover {
+    background: #eee;
+  }
+  
+  /* Core Values Section */
+  .npd-contact-values {
+    background: #f9f9f9;
+    padding: 60px 20px;
+    color: #333;
+  }
+  
+  .npd-values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    max-width: 1100px;
+    margin: auto;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .npd-values-box i {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .npd-values-box h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .npd-values-box p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .npd-contact-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .npd-contact-form {
+      order: -1;
+    }
+  }
+/* ---------contact page style-------------- */
 
 
 
@@ -417,6 +762,11 @@ header .logo{
 
     .menu_icon{
         display: block;
+        color: gray;
+        transition: all .4s ease;
+    }
+
+    .menu_icon:hover{
         color: #fff;
     }
 
